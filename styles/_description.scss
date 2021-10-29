@@ -1,0 +1,38 @@
+.description {
+    &__photo {
+        img {
+            width: 100%;
+            max-width: 617px;
+        }
+    }
+    &__title {
+        margin: 30px 0;
+    }
+    &__text {
+        max-width: 608px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .description {
+        &__photo {
+            img {
+                max-width: 553px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description {
+        &__photo {
+            img {
+                max-width: 486px;
+            }
+        }
+        &__title {
+            margin: 25px 0;
+        }
+    }
+}

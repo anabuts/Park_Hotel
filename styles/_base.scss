@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    src: url('../fonts/OpenSansHebrew-Bold.eot');
+    src: local('☺'), url('../fonts/OpenSansHebrew-Bold.woff') format('woff'), url('../fonts/OpenSansHebrew-Bold.ttf') format('truetype'), url('../fonts/OpenSansHebrew-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 25px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1rem;
+}
+
+section {
+    padding: 100px 0px;
+}
+
+article {
+    display: inline-block;
+    position: relative;
+}
+
+input::-webkit-input-placeholder {
+    color: $fourth-cLr;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 22px;
+    }
+    section {
+        padding: 80px 0px;
+    }
+    input::-webkit-input-placeholder {
+        font-size: 0.818181rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 70px 0px;
+    }
+    input::-webkit-input-placeholder {
+        font-size: 0.909090rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    input::-webkit-input-placeholder {
+        font-size: 0.81818181rem;
+    }
+}
