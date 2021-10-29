@@ -1,0 +1,18 @@
+@mixin button {
+    display: block;
+    height: 60px;
+    max-width: 312px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 60px;
+    color: $second-cLr;
+    background-color: $decoration-clr;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: all .3s;
+    &:hover {
+        background-color: $decoration-hover-clr;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, .2);
+    }
+}

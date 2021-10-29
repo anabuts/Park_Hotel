@@ -1,0 +1,22 @@
+.radio-button {
+    &:not(:last-of-type) {
+        margin-bottom: 20px;
+    }
+    &__input {
+        width: 20px;
+        height: 20px;
+        margin-right: 16px;
+    }
+    &__name {
+        font-size: 0.8rem;
+        color: $third-cLr;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .radio-button {
+        &__name {
+            font-size: 0.818181rem;
+        }
+    }
+}

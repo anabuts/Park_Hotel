@@ -1,0 +1,15 @@
+.fourth-heading {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .fourth-heading {
+        font-size: 1.0454545rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .fourth-heading {
+        font-size: 0.909090rem;
+    }
+}
