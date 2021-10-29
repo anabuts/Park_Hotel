@@ -1,0 +1,45 @@
+.button {
+    @include button;
+}
+
+.button--position {
+    margin: 60px auto 0px;
+}
+
+.button--position-form {
+    margin: 40px auto 0px;
+    padding: 0 70px;
+}
+
+@media screen and (max-width: 1024px) {
+    .button {
+        max-width: 248px;
+        font-size: 0.772727rem;
+        height: 48px;
+        line-height: 48px;
+    }
+    .button--position {
+        margin: 45px auto 0px;
+    }
+    .button--position-form {
+        padding: 0 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button--position {
+        margin: 35px auto 0px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .button--position-form {
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .button--position-form {
+        padding: 0px 20px;
+    }
+}

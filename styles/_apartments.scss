@@ -1,0 +1,14 @@
+.apartments {
+    &__text {
+        max-width: 617px;
+        margin: 30px auto 55px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .apartments {
+        &__text {
+            margin: 30px auto;
+        }
+    }
+}
