@@ -1,0 +1,39 @@
+.footer-menu {
+    width: 150px;
+    border-top: 0.7px solid $decoration-second-clr;
+    border-bottom: 0.7px solid $decoration-second-clr;
+    padding: 25px 0px;
+    margin: 35px auto;
+    &__item {
+        display: block;
+        font-size: 0.6rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: $main-clr;
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-menu {
+        width: 140px;
+        padding: 20px 0px;
+        margin: 25px auto;
+        &__item {
+            font-size: 0.590909rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-menu {
+        width: 120px;
+        padding: 20px 0px;
+        margin: 25px auto;
+        &__item {
+            font-size: 0.681818rem;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.second-heading {
+    font-family: "Open Sans Hebrew", sans-serif;
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .second-heading {
+        font-size: 1.590909rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .second-heading {
+        font-size: 1.136363rem;
+    }
+}
